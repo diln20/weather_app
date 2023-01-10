@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@500&display=swap');
+.general-info{
+    background-color:#100E1D;
+    height:100%;
+    width:100%;
+    padding: 1em 0em 0 10em;
+    min-height: 100vh; 
+    box-sizing: border-box; 
+}
+.celcius{
+    background-color:#585676;
+    width:60px;
+    height:60px;
+    align-items: center;
+    border-radius:50%;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: 'bold';
+    color:white;
+}
+
+.celcius:hover{
+    background-color:#E7E7EB;
+    color:black;
+    cursor:pointer;
+}
+
+.farenheit{
+    background-color:#585676;
+    width:60px;
+    height:60px;
+    align-items: center;
+    border-radius:50%;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: 'bold';
+    color:white;
+}
+
+.farenheit:hover{
+    background-color:#E7E7EB;
+    cursor:pointer;
+}
+
+
+
+.button-temp{
+    display:flex;
+    flex-direction:row-reverse;
+    right: 0;
+    padding:0px 12em 0px 0px;
+    margin-left:10px;
+}
+
+.general-list{
+    align-items:center;
+    justify-content:center;
+}
+
+.general-list li{ 
+    margin-top:15px;
+    list-style-type: none;
+    display:inline-block;
+}
+
+.dash-board li{
+    margin-top:15px;
+    list-style-type: none;
+    display:inline-block;
+    align-self: center;
+    margin: 10px;
+    justify-content: center;
+}
+
+.dash-list ul {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-list ul li{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-board{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}

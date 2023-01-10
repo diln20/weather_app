@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@500&display=swap');
+
+.general-card{
+    background-color:#1E213A;
+    width:120px;
+    height:180px;
+    padding: 40px;
+    margin: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-card{
+   width:100px;
+   margin-top:20px;
+}
+
+.temp-card{
+    margin-top:30px;
+}
+
+.temp-card li{
+    margin: 0;
+    list-style-type: none;
+    display: inline;
+    padding-left:6px;
+    padding-right:8px;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Raleway';
+    align-tex:'center';
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #E7E7EB;
+    margin: 0;
+    padding: 0;
+}
+

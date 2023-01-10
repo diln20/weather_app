@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&family=Ubuntu:wght@500&display=swap');
+.infoLocation{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E213A;
+    width:30%;
+    min-height: 100vh;
+    box-sizing: border-box; 
+}
+
+
+.button{
+    background-color:#6E707A ;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover{
+    background-color:#4B4E5A ;
+    cursor:pointer;
+}
+
+.location{
+    background-color:#6E707A ;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:100px;
+}
+
+.location:hover{
+    background-color:#4B4E5A ;
+    cursor:pointer;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+.cloud-img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    overflow: hidden;
+    margin-bottom: 3em;
+}
+
+.img{
+    overflow: hidden;
+}
+
+.temp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color:white;
+    font-weight: 500;
+    font-size: 110px;
+}
+
+.info{
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.icon-location{
+    color: #6E707A;
+    fill: #88869D;
+    height:15px;
+    
+}
+
+h1,h3,h4{
+    font-family:Raleway;
+}
+
+
