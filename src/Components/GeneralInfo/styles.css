@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@500&display=swap');
 .general-info{
     background-color:#100E1D;
-    height:100%;
     width:100%;
-    padding: 1em 0em 0 10em;
-    min-height: 100vh; 
-    box-sizing: border-box; 
+    padding: 0em 5em 5em 8em;
 }
 .celcius{
     background-color:#585676;
@@ -39,6 +36,7 @@
 
 .farenheit:hover{
     background-color:#E7E7EB;
+    color:black;
     cursor:pointer;
 }
 
@@ -50,6 +48,7 @@
     right: 0;
     padding:0px 12em 0px 0px;
     margin-left:10px;
+    margin: 10px;
 }
 
 .general-list{
@@ -66,9 +65,8 @@
 .dash-board li{
     margin-top:15px;
     list-style-type: none;
-    display:inline-block;
     align-self: center;
-    margin: 10px;
+    margin: 18px;
     justify-content: center;
 }
 
@@ -80,7 +78,7 @@
 }
 
 .dash-list ul li{
-    margin: 10px;
+    margin:5px;
     justify-content: center;
     align-items: center;
 }

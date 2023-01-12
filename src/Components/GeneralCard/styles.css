@@ -9,6 +9,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .img-card{
@@ -34,7 +36,7 @@
 }
 
 h1{
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 500;
     color: #E7E7EB;
     margin: 0;
